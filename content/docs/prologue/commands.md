@@ -49,7 +49,7 @@ To see database instances config.
 ./altair config db
 ```
 
-### migrate
+## migrate
 
 To migrate the databases
 
@@ -59,7 +59,7 @@ To migrate the databases
 ./altair migrate [database instance name]
 ```
 
-### migrate:down
+## migrate:down
 
 To reset all of the migration
 
@@ -69,7 +69,7 @@ To reset all of the migration
 ./altair migrate:down [database instance name]
 ```
 
-### migrate:rollback
+## migrate:rollback
 
 To rollback previous migrations
 
