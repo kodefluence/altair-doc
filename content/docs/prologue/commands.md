@@ -1,106 +1,80 @@
 ---
 title: "Commands"
-description: "Doks comes with commands for common tasks."
-lead: "Doks comes with commands for common tasks."
+description: "Altair comes with CLI."
+lead: "Altair comes with CLI."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
 images: []
-menu: 
+menu:
   docs:
     parent: "prologue"
 weight: 130
 toc: true
 ---
 
-{{< alert icon="💡" text="You can change the commands in the scripts section of `./package.json`." >}}
+## run
 
-## start
+Start Altair's server.
 
-Start local development server:
-
-{{< btn-copy text="npm run start" >}}
+{{< btn-copy text="./altair run" >}}
 
 ```bash
-npm run start
+./altair run
 ```
 
-## lint
+## config
 
-Check scripts, styles, and markdown for errors:
+Show and validate all config in Altair's application.
 
-{{< btn-copy text="npm run lint" >}}
+{{< btn-copy text="./altair config all" >}}
 
 ```bash
-npm run lint
+./altair config all
 ```
 
-### scripts
+To see application config.
 
-Check scripts for errors:
-
-{{< btn-copy text="npm run lint:scripts" >}}
+{{< btn-copy text="./altair config app" >}}
 
 ```bash
-npm run lint:scripts [-- --fix]
+./altair config app
 ```
 
-### styles
+To see database instances config.
 
-Check styles for errors:
-
-{{< btn-copy text="npm run lint:styles" >}}
+{{< btn-copy text="./altair config db" >}}
 
 ```bash
-npm run lint:styles [-- --fix]
+./altair config db
 ```
 
-### markdown
+### migrate
 
-Check markdown for errors:
+To migrate the databases
 
-{{< btn-copy text="npm run lint:markdown" >}}
+{{< btn-copy text="./altair migrate" >}}
 
 ```bash
-npm run lint:markdown [-- --fix]
+./altair migrate [database instance name]
 ```
 
-## clean
+### migrate:down
 
-Delete temporary directories:
+To reset all of the migration
 
-{{< btn-copy text="npm run clean" >}}
+{{< btn-copy text="./altair migrate:down" >}}
 
 ```bash
-npm run clean
+./altair migrate:down [database instance name]
 ```
 
-## build
+### migrate:rollback
 
-Build production website:
+To rollback previous migrations
 
-{{< btn-copy text="npm run build" >}}
-
-```bash
-npm run build
-```
-
-### functions
-
-Build Lambda functions:
-
-{{< btn-copy text="npm run build:functions" >}}
+{{< btn-copy text="./altair migrate:rollback" >}}
 
 ```bash
-npm run build:functions
-```
-
-### preview
-
-Build production website including draft and future content:
-
-{{< btn-copy text="npm run build:preview" >}}
-
-```bash
-npm run build:preview
+./altair migrate:rollback [database instance name]
 ```
