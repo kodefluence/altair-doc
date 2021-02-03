@@ -77,3 +77,9 @@ Copy your `env.sample` file into `.env`, then run the command below to see Altai
 ```
 ./altair config all
 ```
+
+Run your Altair api gateway with
+
+```
+./altair run
+```
