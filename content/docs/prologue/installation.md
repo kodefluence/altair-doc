@@ -24,6 +24,7 @@ We are at the [dockerhub](https://hub.docker.com/r/codefluence/altair)! A common
 ```
 config/
 routes/
+migration/
 .env
 docker-compose.yml
 ```
@@ -68,8 +69,8 @@ After you unzip your zip file, it should look like this.
 ```
 config/
 routes/
-.env
-docker-compose.yml
+migration/
+altair
 ```
 
 Copy your `env.sample` file into `.env`, then run the command below to see Altair's configuration.
