@@ -2,29 +2,17 @@
 title: "Troubleshooting"
 description: "Solutions to common problems."
 lead: "Solutions to common problems."
-date: 2020-11-12T15:22:20+01:00
-lastmod: 2020-11-12T15:22:20+01:00
+date: 2021-02-04T19:59:33+07:00
+lastmod: 2021-02-04T19:59:33+07:00
 draft: false
 images: []
-menu: 
+menu:
   docs:
     parent: "help"
 weight: 620
 toc: true
 ---
 
-## Problems updating npm packages
+## Problems with Altair migration
 
-Delete the `./node_modules` folder, and run again:
-
-```bash
-npm install
-```
-
-## Problems with cache
-
-Delete the temporary directories:
-
-```bash
-npm run clean
-```
+You can refer to this document for troubleshooting  [https://www.percona.com/blog/2019/07/05/fixing-a-mysql-1045-error/](https://www.percona.com/blog/2019/07/05/fixing-a-mysql-1045-error/). Make sure your mysql is running and your credentials are correct. Please also use double quotes for credentials with special characters.

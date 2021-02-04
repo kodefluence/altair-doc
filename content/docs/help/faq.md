@@ -13,36 +13,10 @@ weight: 630
 toc: true
 ---
 
-## Hyas?
+## What are the future features of Altair?
 
-Doks is a [Hyas theme](https://gethyas.com/themes/doks/) build by the creator of Hyas.
+In the future Altair will support more interfaces for each of it's plugin, and it will be
 
-## Footer notice?
+## Where could I support Altair?
 
-Please keep it in place.
-
-## Keyboard shortcuts for search?
-
-- focus: `/`
-- select: `↓` and `↑`
-- open: `Enter`
-- close: `Esc`
-
-## Other documentation?
-
-- [Netlify](https://docs.netlify.com/)
-- [Hugo](https://gohugo.io/documentation/)
-
-## Can I get support?
-
-Create a topic:
-
-- [Netlify Community](https://community.netlify.com/)
-- [Hugo Forums](https://discourse.gohugo.io/)
-
-## Contact the creator?
-
-Send `h-enk` a message:
-
-- [Netlify Community](https://community.netlify.com/)
-- [Hugo Forums](https://discourse.gohugo.io/)
+Currently you could support Altair by contributing to our [code repository](https://github.com/codefluence-x/altair) and share the words to the others. Financial support will be announce in the future.
