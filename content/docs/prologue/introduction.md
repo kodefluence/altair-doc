@@ -13,6 +13,14 @@ weight: 100
 toc: true
 ---
 
+## What is API Gateway?
+
+An API gateway is an API management tool that sits between a client and a collection of backend services.
+
+An API gateway acts as a reverse proxy to accept all application programming interface (API) calls, aggregate the various services required to fulfill them, and return the appropriate result.
+
+Most enterprise APIs are deployed via API gateways. It’s common for API gateways to handle common tasks that are used across a system of API services, such as user authentication, rate limiting, and statistics.
+
 ## Why Altair
 
 There are various API Gateways available to you when you want to distribute your service or split it into microservices. However we believe Altair is the best choice for building your API Gateway because of its simplicity.
