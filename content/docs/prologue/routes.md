@@ -47,7 +47,8 @@ The name of the service
 Oauth option for services scope.
 
 - none: No authentication
-- oauth: Oauth authentication, plugin oauth is need to be activated to use this type of authentication
+- oauth: Oauth authentication, **plugin oauth is need to be activated to use this type of authentication**. If you choose this authentication, the client request must include the `Authorization` header in the request with the access token as the value `Bearer access-token-that-you-got-from-altair`.
+- oauth_application: Oauth application authentication, **plugin oauth is need to be activated to use this type of authentication**. This feature is currently in a testing phase where you have to submit your request in json format and include `client_id` and `client_secret` in the request body for Altair to validate with your `oauth_application` list.
 ### prefix
 
 Prefix of the service.
@@ -74,7 +75,8 @@ This config will only be validated if **oauth** plugin is **activated**, each sc
 The Oauth option for path scope, if empty will follow the authentication specified in the service.
 
 - none: No authentication
-- oauth: Oauth authentication, plugin oauth is need to be activated to use this type of authentication
+- oauth: Oauth authentication, **plugin oauth is need to be activated to use this type of authentication**. If you choose this authentication, the client request must include the `Authorization` header in the request with the access token as the value `Bearer access-token-that-you-got-from-altair`.
+- oauth_application: Oauth application authentication, **plugin oauth is need to be activated to use this type of authentication**. This feature is currently in a testing phase where you have to submit your request in json format and include `client_id` and `client_secret` in the request body for Altair to validate with your `oauth_application` list.
 
 ## Template Function
 
