@@ -24,7 +24,7 @@ routes/
   stores.yaml
 ```
 
-And in each file should be looks like this.
+And in each file could be looks like this.
 
 ```yaml
 name: users
@@ -54,10 +54,30 @@ Prefix of the service.
 
 ### host
 
-Target host of the service. Example: `https://yourservice.com` or `http://localhost:8000`.
+Target host of the service. Example: `yourservice.com` or `localhost:8000`. The specified host must be written without the `http` or `https` protocol.
 
 ### path
 
+List of service paths to be forwarded to the backend service. This will combine the service prefix with the path specified here, example:
+
+- host: `www.example.com`
+- prefix: `/users`
+- path: `/address`
+- combined path: `http://www.example.com/users/adress/`
+
 #### scope
 
+This config will only be validated if **oauth** plugin is **activated**, each scope separated by space `public users products`. This will validate a request-provided oauth token with the specified scope in each path. If it is empty then this validation will be skipped.
+
 #### auth
+
+The Oauth option for path scope, if empty will follow the authentication specified in the service.
+
+- none: No authentication
+- oauth: Oauth authentication, plugin oauth is need to be activated to use this type of authentication
+
+## Template Function
+
+### env
+
+env function will get environment variable based on given parameter. Example `env "DATABASE_NAME"` it will return `DATABASE_NAME` from your environment variables.

@@ -4,11 +4,17 @@
   identifier = "prologue"
   url = "/docs/prologue/"
 
-# [[docs]]
-#   name = "Help"
-#   weight = 60
-#   identifier = "help"
-#   url = "/docs/help/"
+[[docs]]
+  name = "Plugin"
+  weight = 20
+  identifier = "plugin"
+  url = "/docs/plugin/"
+
+[[docs]]
+  name = "Help"
+  weight = 60
+  identifier = "help"
+  url = "/docs/help/"
 
 [[main]]
   name = "Docs"
