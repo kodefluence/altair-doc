@@ -7,7 +7,7 @@ titleAddition = "Distributed API Gateway"
 description = "Altair is an open source API gateway written in Go. Designed to be distributed, lightweight, simple, fast, reliable, cross platform, programming language agnostic and robust - by default"
 
 ## Open Graph + Twitter Cards
-images = ["doks.png"]
+images = ["altair.png"]
 twitterSite = "insomnius_"
 twitterCreator = "insomnius_"
 facebookAuthor = "insomnius.arief"
