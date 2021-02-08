@@ -4,12 +4,12 @@ description: "Oauth2 plugin embed in your API Gateway."
 lead: "Oauth2 plugin embed in your API Gateway."
 date: 2021-02-07T00:42:35+07:00
 lastmod: 2021-02-07T00:42:35+07:00
-draft: true
+draft: false
 images: []
 menu:
   docs:
     parent: "plugin"
-weight: 200
+weight: 201
 toc: true
 ---
 
