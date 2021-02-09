@@ -34,7 +34,7 @@ host: {{ env "EXAMPLE_USERS_SERVICE_HOST" }}
 path:
   /me:
     scope: "users"
-  /profiles/:id:
+  /profiles/:user_id:
     scope: "users"
     auth: "none"
 ```
@@ -65,6 +65,11 @@ List of service paths to be forwarded to the backend service. This will combine 
 - prefix: `/users`
 - path: `/address`
 - combined path: `http://www.example.com/users/adress/`
+
+You can also use dynamic parameters on your route such as:
+
+- `/users/:user_id`
+- `/users/:user_id/address`
 
 #### scope
 
