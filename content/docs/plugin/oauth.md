@@ -65,4 +65,4 @@ The duration of the authorization code expiration.
 
 ## Routes
 
-The role of oauth in Altair routes is for authentication purposes on every request. See [here](http://localhost:1313/docs/prologue/routes/#auth-1).
+The role of oauth in Altair routes is for authentication purposes on every request. See [here](/docs/prologue/routes/#auth-1).
