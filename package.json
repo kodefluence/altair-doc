@@ -1,6 +1,6 @@
 {
   "name": "doks",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": true,
   "hugo-bin": {
     "buildTags": "extended"
